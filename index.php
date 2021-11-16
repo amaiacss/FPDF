@@ -46,11 +46,19 @@
                 1: lleva fondo, 0: no lleva fondo
     */
     $pdf->MultiCell(100, 5, 'nñsdnfñaindfgñainfañdknfñaidfnañsdkvmañidf', 1, 'L', 0);
+    $IVA = '21%';
+    $pdf->Cell(100, 15, ' ',1,0,'C');
+    $pdf->Cell(50, 15, 'Subtotal',1,0,'C');
+    $pdf->Cell(50, 15, $IVA,1,0,'R');
 
     $pdf->Output();
 
     
+    //variable para sumar todos los conceptos, mostrarlos en pantalla
+    //Mostrar porcentaje de IVA
+    //Mostrar total con IVA
 
+    // ¿Como filtrar si es una factura con o sin IVA? al alta del cliente ¿input para la BD con iva o sin iva?, si existe iva, va a la vista con iva o muestra la parte del iva si solo lo hago en una vista
 
 
 ?>
