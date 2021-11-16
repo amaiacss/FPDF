@@ -60,5 +60,14 @@
 
     // ¿Como filtrar si es una factura con o sin IVA? al alta del cliente ¿input para la BD con iva o sin iva?, si existe iva, va a la vista con iva o muestra la parte del iva si solo lo hago en una vista
 
+    // utf8_decode()
+
+    //  https://www.lawebdelprogramador.com/foros/PHP/1759694-Problema-con-pdf-y-fpdf-para-detalle-de-factura.html
+
+    // http://www.v-espino.com/~chema/daw2/factura_en_pdf.htm
+    
+
+
+  
 
 ?>
